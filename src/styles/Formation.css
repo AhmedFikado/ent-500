@@ -1,0 +1,118 @@
+.formation-section {
+  min-height: 100vh;
+  background-color: var(--secondary-color);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.formation-section h2 {
+  color: var(--accent);
+  font-size: 2.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.formation-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.formation-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  background: var(--primary-color);
+  border-radius: 14px;
+  padding: 2.2rem 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+
+.formation-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+  &:hover {
+    transform: translateY(-6px) scale(1.02);
+  }
+}
+
+.formation-date {
+  min-width: 120px;
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 0.3rem;
+}
+
+.formation-content h3 {
+  margin: 0 0 0.5rem 0;
+  color: var(--accent);
+  font-size: 1.3rem;
+}
+
+.formation-content p {
+  margin: 0 0 0.7rem 0;
+  font-size: 1.05rem;
+}
+
+.formation-badge {
+  display: inline-block;
+  background: var(--accent);
+  /* color: #fff; */
+  color: black;
+  border-radius: 6px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.formation-details {
+  margin-top: 1.2rem;
+  text-align: left;
+}
+
+.formation-details p {
+  margin: 0 0 0.7rem 0;
+  font-size: 1rem;
+}
+
+.formation-stacks {
+  margin-top: 0.5rem;
+}
+
+.formation-stacks span {
+  font-weight: bold;
+  color: var(--accent);
+  margin-right: 0.5rem;
+}
+
+.formation-stacks ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  list-style: none;
+  padding: 0;
+  margin: 0.3rem 0 0 0;
+}
+
+.formation-stacks li {
+  background: var(--secondary-color);
+  color: var(--accent);
+  border-radius: 5px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.98rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}

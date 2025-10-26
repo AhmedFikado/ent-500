@@ -1,0 +1,27 @@
+.projects-section {
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: var(--background-color);
+  color: var(--text);
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    color: var(--accent);
+    margin-bottom: 2rem;
+  }
+  div {
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  div.visible {
+    animation: fadeInUp 0.8s forwards;
+  }
+
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 64px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

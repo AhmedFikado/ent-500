@@ -1,0 +1,48 @@
+.aboutme-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .dynamic-text {
+    color: #0077cc;
+    font-weight: bold;
+  }
+
+  .aboutme-actions {
+    margin-top: 1rem;
+  }
+
+  .btn-cv {
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    background: var(--primary-color);
+    color: #ffffff;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 700;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .btn-cv:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  }
+
+  .cursor {
+    display: inline-block;
+    margin-left: 2px;
+    animation: blink 1s infinite;
+    font-weight: bold;
+  }
+}
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}

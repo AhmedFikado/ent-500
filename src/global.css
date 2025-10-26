@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Merriweather";
+  src: url("./assets/fonts/Merriweather-VariableFont_opsz,wdth,wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  font-family: "Merriweather", sans-serif;
+  color: var(--text);
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+:root {
+  --primary-color: #282a36;
+  /* (Gris foncé, presque noir) */
+  --secondary-color: #44475a;
+  /* Secondaire :  (Gris moyen) */
+  --accent: #8be9fd;
+  /* Accent : #8BE9FD (Cyan vif) */
+  --text: #f8f8f2;
+  /* Texte : #F8F8F2 (Blanc cassé) */
+  --background-color: #1e1f29;
+  /* Arrière-plan : #1E1F29 (Gris très foncé) */
+
+  /* Palette 5 : Dynamique et Moderne */
+  --primary-color-test: #0b0c10;
+  /* Primaire : #0B0C10 (Noir bleuté) */
+  --secondary-color-test: #44475a;
+  /* Secondaire : #1F2833 (Gris foncé bleuté) */
+  --accent-test: #66fcf1;
+  /* Accent : #66FCF1 (Turquoise néon) */
+  --text-test: #c5c6c8;
+  /* Texte : #C5C6C8 (Gris clair) */
+  --background-color-test: #45a29e;
+  /* Arrière-plan : #45A29E (Turquoise foncé) */
+}
