@@ -5,36 +5,36 @@ const stacks = [
   {
     title: 'Frontend',
     items: [
-      { name: 'React', img: '/logos/react.webp' },
-      { name: 'TypeScript', img: '/logos/typescript.webp' },
-      { name: 'JavaScript', img: '/logos/javascript.webp' },
-      { name: 'HTML5', img: '/logos/html.webp' },
-      { name: 'CSS3', img: '/logos/css.webp' },
-      { name: 'Tailwind CSS', img: '/logos/tailwindcss.webp' },
+      { name: 'React', img: 'logos/react.webp' },
+      { name: 'TypeScript', img: 'logos/typescript.webp' },
+      { name: 'JavaScript', img: 'logos/javascript.webp' },
+      { name: 'HTML5', img: 'logos/html.webp' },
+      { name: 'CSS3', img: 'logos/css.webp' },
+      { name: 'Tailwind CSS', img: 'logos/tailwindcss.webp' },
     ],
   },
   {
     title: 'Backend',
     items: [
-      { name: 'Node.js', img: '/logos/nodejs.webp' },
-      { name: 'Express', img: '/logos/express.webp' },
-      { name: 'Flask', img: '/logos/flask.webp' },
+      { name: 'Node.js', img: 'logos/nodejs.webp' },
+      { name: 'Express', img: 'logos/express.webp' },
+      { name: 'Flask', img: 'logos/flask.webp' },
     ],
   },
   {
     title: 'Gestion de BDD',
     items: [
-      { name: 'SQL', img: '/logos/nodejs.webp' },
-      { name: 'MySQL', img: '/logos/tailwindcss.webp' },
+      { name: 'SQL', img: 'logos/sql.webp' },
+      { name: 'MySQL', img: 'logos/mysql.webp' },
     ],
   },
   {
     title: 'Outils & Autres',
     items: [
-      { name: 'Git', img: '/logos/git.webp' },
-      { name: 'Figma', img: '/logos/figma.webp' },
-      { name: 'Vercel', img: '/logos/vercel.webp' },
-      { name: 'VS Code', img: '/logos/vscode.webp' },
+      { name: 'Git', img: 'logos/git.webp' },
+      { name: 'Figma', img: 'logos/figma.webp' },
+      { name: 'Vercel', img: 'logos/vercel.webp' },
+      { name: 'VS Code', img: 'logos/vscode.webp' },
     ],
   },
 ];

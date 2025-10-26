@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'AlgoLinguo',
-    image: '/algo-linguo.png',
+    image: 'algo-linguo.png',
     description: 'Quiz interactif éducatif créée lors d’un hackathon de 48h.',
     objectif:
       'Rendre l’apprentissage des algorithmes accessible et ludique, aussi bien pour les débutants que pour les développeurs souhaitant consolider leurs bases.',

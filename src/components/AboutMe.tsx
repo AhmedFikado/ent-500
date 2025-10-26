@@ -49,7 +49,7 @@ function AboutMe() {
       <h3>Étudiant en 3ème année à Epitech</h3>
       <div className="aboutme-actions">
         <a
-          href="/CV.pdf"
+          href="CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-cv"
