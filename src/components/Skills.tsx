@@ -19,6 +19,7 @@ const stacks = [
       { name: 'Node.js', img: 'logos/nodejs.webp' },
       { name: 'Express', img: 'logos/express.webp' },
       { name: 'Flask', img: 'logos/flask.webp' },
+      { name: 'Java', img: 'logos/java.webp' },
     ],
   },
   {

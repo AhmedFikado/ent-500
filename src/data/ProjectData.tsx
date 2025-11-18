@@ -10,14 +10,6 @@ export const projects = [
     link: 'https://algo-linguo.vercel.app/',
   },
   {
-    title: 'Taskia',
-    image: 'taskia.png',
-    description: 'To-do list collaborative moderne et intuitive.',
-    objectif: 'Faciliter la gestion de tâches en groupe.',
-    tech: 'React, Firebase, Tailwind, TypeScript',
-    github: 'https://github.com/AhmedFikado/Taskia',
-  },
-  {
     title: 'SolarSystem',
     image: 'SolarSystem.png',
     description: 'Système solaire avec ses planètes et leurs satelittes ',

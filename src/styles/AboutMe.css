@@ -4,6 +4,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  h1 {
+    text-align: center;
+  }
   .dynamic-text {
     color: #0077cc;
     font-weight: bold;
